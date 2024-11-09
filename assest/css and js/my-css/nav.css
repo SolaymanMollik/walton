@@ -1,0 +1,17 @@
+nav {
+  width: var(--pri-width);
+  background-color: var(--pri-color);
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin: var(--auto);
+}
+#nav-img {
+  width: 150px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,78 @@
+.hero-sec,
+.my-flex-2 {
+  width: var(--pri-width);
+  margin: var(--auto);
+  position: relative !important;
+  height: 100%;
+}
+.swiper {
+  width: 100%;
+  /* height: calc(100vh - 4rem); */
+  aspect-ratio: 16 / 6.5;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.swiper-slide video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* section 2  */
+#bigger-img,
+.bigger-img {
+  width: 100%;
+  height: 100%;
+}
+#bigger-img2 {
+  display: none;
+}
+@media (max-width: 650px) {
+  #bigger-img {
+    display: none;
+  }
+  #bigger-img2 {
+    display: block !important;
+  }
+}
+
+/* sec-flex-2 */
+.wrap {
+  flex-wrap: wrap;
+}
+.wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+.my-flex-2 {
+  display: flex;
+  margin: auto;
+}
+.f2-1 {
+  /* width: 45%; */
+  height: 400px;
+  display: grid;
+  place-items: center;
+}
+.f2-2 {
+  /* width: 55%; */
+  height: 400px;
+}
+.f2-2 > img {
+  width: 100%;
+  height: 100%;
+}
